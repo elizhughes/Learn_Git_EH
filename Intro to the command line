@@ -1,0 +1,10 @@
+For Windows use Git Bash as terminal
+This allows you to work offline rather than in Git Hub
+Basic commands:
+1. help (shows help)
+2. clear (clear everything from the terminal)
+3. cd (change directory)
+4. pwd (print or present working directroy)
+5. ls (list)
+6. cd .. (moves up 1 directory)
+7. ls -all (gives more info on all files)

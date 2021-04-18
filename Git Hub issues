@@ -1,0 +1,22 @@
+How ti file an issue.
+On the top LHS of your screen there is an 'Issues' tab.
+Thi sis a place to leave a comment about a project.
+-specific Q's, issues, bugs, features about a particular project.
+Click on 'Issues'.
+Give a new issue a title and write a comment. 
+You can take a screen shot and drag and drop it into the write section.
+You can use markdown in this write section.
+See https://guides.github.com   (Mastering Markdown)
+Write your issue, you can add labels on thr RHS, milestones and assign this issue to a specific person,
+Click 'Submit new issue'.
+NB: Only th eperson who submitted the issue or the owner of the repo can close an issue.
+YOu can submit issues to any repo.
+How do you resolve an issue?
+Go to the file in question and make the change or whatever is needed.
+Commit, with a comment and the issue ID number e.r. #10
+Navidate to the issue tab and you will see an entry saying what you did.
+If done the 'Close issue.
+NB: certain words used in the summary title are recognised by Git.
+e.g. Type: 'This fixes #10'
+Git will recognise that as a commit that resolves issue #10 and will close it automatically.
+You can use issue numbers or commit hash number to reference events.

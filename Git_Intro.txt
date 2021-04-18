@@ -1,0 +1,20 @@
+A 'Repository' or repo is a collection of files.
+To make a new repo click on the green 'New' button.
+Name the repo.
+Check the 'Public' and @Add a readme file' boxes.
+Click 'Create Repository'.
+Click 'Add file' and 'Create Bew File' and give it a name.
+NB; Git and Github can work with and keep track of many file formats. 
+Start with a text format .txt
+Add a description below and then click 'Commit new file'.
+A 'Commit' is to change the file and make a commit, kind of like saving the file.
+Use the edit button (pencil) to edit a file.
+edit your file.
+Scroll down to 'Commit changes'.
+Each change or commit should have a note associated with it to indicate the change.
+This is very useful for collaborative projects.
+Great commit summaries contain fewer than 50 characters. Place extra information in the extended description.
+hit 'Commit changes'
+'History' will show you the history of the commits you have created in this file.
+On the top RHS of the screen is something like this: 'commit 640b79b69d8cf7c0aaa58e6d2906527b0b54f2bd'
+This is the 'Commit Hash', a unique identifier for this particular commit.

@@ -1,0 +1,36 @@
+You can clone a repo on gitHub to allow you to work on it on your own laptop.
+Get git from https://git-scm.com
+Intall git for windows
+
+Some commands:
+git config  check a specific keys value
+eg git config user.name returns 'Liz Hughes'
+git help <verb> returns help documents
+git add -h  returns a shortened version of help for the command add
+
+On Git Bash (command line) navigate to the GitHub folder on your computer.
+type 'git'
+You should get lots of info showing git is corectly installrd.
+If you get '-bash: git: command not found' git is not installed properly.
+Using git locally with the command line is all about saying git <something>
+eg git commit to make a commit.
+In order to issue comands you need a folder on your computer that is a git repo
+use git clone <repo url> to clone a repo from GitHub to locally on your computer.
+
+'git status' shows you where your local copy is compared to the one on GitHub.
+eg If I made changes to a file on my local copy these will be listed here.
+'git commit' is not enough to make a commit. Commands need arguments.
+'-a' stands for all, commit all changes
+'-m' is for message and allows you to add a comment
+'git log' allows you to see any commit locally
+'git log -2' shows the last 2 commits
+shift ; q gets you out of VIM
+'git push' send things to GitHub
+'Git pull' reciebve things from GitHub
+'git remote' show you your remote server
+'git remote -v' show the remote sever and url (-v means verbose). This allows you to check you are sending to the correct place.
+To push a commit you need to specify the remote server and the branch you want to push to.
+'git push origin main' to push from your local copy to the main branch in the original repo on GitHub
+
+changes made to the original repo can be updated in the local copy using
+'git pull origin main'

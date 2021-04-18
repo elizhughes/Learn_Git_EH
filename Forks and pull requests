@@ -1,0 +1,25 @@
+Forks and pull requests
+When you Fork another repo youar essentially making a complete copy of this repo and having it in your account.
+This will be an exact replica that you can then work on.
+A Pull request is when you wish to contribute back to the priginal repo some of the work you have done in your copy.
+i.e. you are asking with a pull request since the info is going to a different account that you do not have permissions to alter.
+
+To Fork another accounts Repo first log in to your account.
+Navigate to the account and Repo you want to fork.
+Click on 'Fork' on the top RHS.
+This willfork the repo to your Github account and underneath it will show you where you forked it from.
+Now you can edit any of the files in your copy of the Repo.
+Any changes you make can be commited to the master branch or you can create another branch.
+This will be to the master branch in YOUR copy of the reppo.
+NB: You may want to create a pull request from your change and it is sometimes useful to create a new branch for thi purpose but you don't have to.
+If you want to click 'Propose file change'
+Then merge as before.
+Now you do a Pull request and this will inform the original repo that you have a pull request.
+Add a summary and comment for the original repo holder saying what you have done and why you want to add it to the original repo.
+Click 'Create pull request'.
+Wait to see if your pull request is accepted.
+
+At the other ens in the original Repo they will see 'Pulll request 1' indicating a new pull request.
+Click on 'Pull request' to see what it is.
+Write a comment to the person who sent it and click 'Merge pull request'.
+It will now be added to the original repo.

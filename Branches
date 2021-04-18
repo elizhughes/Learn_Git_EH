@@ -1,0 +1,46 @@
+What is a branch?
+I have Repo called Learn-git.
+with each commit a change happened, a linear list.
+If I want to experiment and maybe not keep it, I need a branch.
+A git hub repo the main linear list of commits is on the 'Master Branch'
+You can have lots of different branches.
+I want to branch off and create a branch called 'Unicorn' for experimentation.
+Top LHS of screen is a brach-like symbol with 'Main' next to it.
+My files so far are on this master branch.
+I don't have any other branches so far.
+Click on 'Main' and a box with 'Find or create a branch' will appear.
+In this box type 'Unicorn'.
+You are then given an option to 'Create branch: Unicorn' fro the main branch because this branch does not exist.
+If it did exist it would give me the option to switch to this branch.
+Click on create branch.
+The Unicorn branch is now created.
+Go to the Unicorn branch.
+So, now I'm going to start to edit this branch by adding a unicorn.
+Scroll down to the commit button.
+Note: It says comit directly to the unicorn branch.
+Alo note:  Create a new branch for this commit and start a pull request. This allows you to create a new branch for the commit.
+Just now commit to Unicorn branch.
+
+Branching is making a more substantive commitment to your changes and putting them in a new path.
+Allows you to have 2 possibilities going on at the same time.
+However, what if you want to bring the unicorn branch back into the master branch.
+Go into Insights and then network to see the branching of your repo.
+
+Pull request and merge.
+First go to main page: Learn-Git
+
+A Pull request in pulling something in.
+A Push request is sending something somewhere else.
+Essentially we will get the Unicorn branch to ask the main branch...
+Will you take my changes and pull them into the main branch?
+At he top of the screen there is a box with 'Unicorn had recent pushes 3 mins ago1
+and another box with 'Compare and pull request'. i.e. want what you just did in unicorn to go back into main branch.
+Click 'Compare and pull request', this opens up 'Open a pull request'.
+Add info on what you are doing, ee.g. I added info on branches
+Click 'Create pull request'
+Git can tell if there are conflicts or not and determine if the merge is possible.
+A conflict usually only arises if you are editing the same line in 2 branches.
+Complete the action by clicking 'Merge pull request' and 'Confirm merge'.
+Go back to insights and you on network you can visually see this merge.
+
+

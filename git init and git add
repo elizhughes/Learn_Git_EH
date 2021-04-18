@@ -1,0 +1,38 @@
+To turn a directory on your computer into a git repository on Git Hub.
+Use git init
+cd to the directory you want to make into a repo
+Go to yuor file manager and drag the file into the terminal
+NB: remove c: from the path
+type 'git init' 
+ you will get   " Initialised emmpty git repository in/ <path>
+Type 'git status'
+  you will get:  "untracked files:
+                (use "git add <filename>" to include in what will be commited)
+                Then a list of file
+                Then: "nothing added to commit but untracked files present (use "git add" to track)
+'git add <filename>'
+'git commit -m "add comment on what doing"
+NB to add all files in directory type: 'git add .'
+'git status' to check
+'git commit -m "comment"
+Now you need to put thefiles onto GitHub.
+Currently they are in a staging area waiting to be added.
+'git remote -v' shows the repo on git hub
+If you strat a repo on yout computer it does not have a GitHub remote associated with it so you need to add that remote in.
+Go to GitHub and make an emprty repo.
+NB do not check the 'initialize with a read me file' at this stage.
+This will make an empty repo with no files
+It tells you what to do:
+git init
+git add
+git commit
+You have already done these.
+Next there is a bit about the main branch......
+ in Git Bash 'git remote add origin url'
+ 'git remote -v' to check all is good
+ 'git push origin main'  to push files to the main branch in origin on GitHub
+ Oncefiles are in the repo in GitHub you can make changes there.
+ Then on Git Bash type 'git fetch' to check if anything is outstanding onyour local copy.
+ Then 'git pull orgin main' to pull chnages into your local copy.
+                
+                 
